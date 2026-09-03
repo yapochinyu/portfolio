@@ -9,3 +9,7 @@ data/
 *.csv
 *.db
 *.sqlite
+catboost_info/
+
+# Исключение: публичный датасет с Kaggle (36 КБ), ноутбук читает его напрямую
+!heart-disease-prediction/heart.csv
